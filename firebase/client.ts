@@ -24,3 +24,25 @@ const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
+// Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBzW_iAbQC8Y32qCF2IxEQHXFEXB3mYg_8",
+//   authDomain: "prepwise-4a215.firebaseapp.com",
+//   projectId: "prepwise-4a215",
+//   storageBucket: "prepwise-4a215.firebasestorage.app",
+//   messagingSenderId: "793529261424",
+//   appId: "1:793529261424:web:857d8f8d98107e8f6503b5",
+//   measurementId: "G-NJV0SMN79Z"
+// };
+
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
